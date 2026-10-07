@@ -39,7 +39,7 @@ El tablero modela el portal central del estudiante universitario consolidando to
 
 El código sigue estrictamente el principio de responsabilidad única (*Single Responsibility Principle*) y arquitectura limpia:
 
-`	ext
+```text
 lib/
 ├── main.dart                          # Punto de entrada y configuración de ThemeData
 ├── utils/
@@ -56,7 +56,8 @@ lib/
     ├── panel_calendario_alertas.dart     # Calendario mensual y próximas entregas
     ├── accesos_rapidos_grid.dart         # Rejilla de accesos al portal SIA/Moodle
     └── pie_pagina_institucional.dart     # Franja inferior con lema universitario
-`
+```
+
 
 ---
 
